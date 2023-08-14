@@ -1,0 +1,32 @@
+<section>
+  <h1>habitos <br> saludables</h1>
+  <p>
+    "Los hábitos saludables  son el camino hacia una vida  vibrante y llena de energía."
+  </p>
+</section>
+<div class="p-def">
+  <div class="def">
+    <p>
+        ¿Están buscando mejorar su calidad de vida y sentirse mejor que nunca?
+        ¡Entonces están en el lugar indicado! Les doy la bienvenida a nuestra página
+        dedicada a hábitos saludables que transformarán su bienestar de manera
+        positiva.
+    </p>
+  </div>
+</div>
+<h2>Beneficios Psicologicos</h2>
+    <div class="capaUno">
+<div  class="b-psicologicos">
+  <div class="info" *ngFor="let p of psicologicos" >
+    <div class="image">
+    <img src="{{p.img}}" alt=""/>
+    </div>
+    <div class="todo">
+    <h3>{{ p.beneficio }}</h3>
+    <p>{{p.description}}</p>
+    </div>
+    
+  </div>
+</div>
+
+</div>

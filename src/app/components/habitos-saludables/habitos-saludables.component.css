@@ -1,0 +1,124 @@
+section{
+    width: 100%;
+    height: 70vh;
+    background: url("../../../assets/fondo7.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items :flex-end;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding-left: 50px;
+    /* opacity: 0.8; */
+}
+
+section h1{
+      /* margin-top: -30px; */
+    margin-right: 300px;
+    font-size: 60px;
+    color: #FC9400;
+    text-transform: uppercase;
+    font-family: 'Barriecito', cursive;
+}
+
+section p{
+    width: 50%;
+    font-size: 40px;
+    /* background-color: rgba(255, 255, 255, 0.523); */
+    /* opacity: 0.9; */
+    /* border: 1px solid green; */
+    color: azure;
+    border-radius: 20px;
+    /* padding: 10px; */
+    text-transform: capitalize;
+    font-family: Britannic;
+} 
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    color: orange;
+}
+.capaUno{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.b-psicologicos{
+    
+    background-color:aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.info{
+    margin-top: 20px;
+    border: 2px solid red; 
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 30%;
+    /* flex-wrap: wrap; */
+    background-color: aliceblue;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.83);
+}
+.todo{
+    
+    width: 50%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.todo h3{
+    text-align: center;
+
+}
+.todo p{
+    text-align: justify;
+    font-size: 15px;
+}
+.image{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    width: 150px;
+    border-radius: 10px;
+}
+.p-def{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    /* border: 3px solid red; */
+}
+.def {
+    /* background-color:#F8FFA9; */
+    border-radius: 15px;
+    margin: 40px;
+    width: 80%;
+    border: 5px solid orange;
+    height: 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.83);
+    /* border: 2px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.def p{
+    width: 90%;
+    text-align: centerc;
+    font-size: 30px;
+
+}
