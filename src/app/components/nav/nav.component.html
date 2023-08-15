@@ -1,6 +1,12 @@
-<nav>
-    <ul>
-        <li>Juegos </li>
-        <li>Games </li>
-    </ul>
-</nav>
+
+
+    <div class="card-container-uno">
+      <div class="card-uno" *ngFor="let l of  psicosociales">
+        <div class="card-image-uno">
+          <img src="{{l.img}}" alt="Imagen 1">
+        </div>
+          <h2 class="card-title">{{l.beneficio}}</h2>
+          <p class="card-description">{{l.description}}</p>
+    </div>
+    </div>
+  
