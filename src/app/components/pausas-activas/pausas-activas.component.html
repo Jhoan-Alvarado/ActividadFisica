@@ -1,0 +1,42 @@
+<header>
+    <h1>Pauas Activas Y Ergonomia</h1>
+</header>
+
+    <div class="titles">
+        <h2>Pausas Activas</h2>
+        <h2>Ergonomia</h2>
+    </div>
+    
+        <section class="def">
+            <p>Las pausas activas son breves interrupciones programadas en la rutina de trabajo o actividad sedentaria que implican la realización de ejercicios y estiramientos suaves. Su propósito principal es contrarrestar los efectos negativos de estar sentado o realizando tareas repetitivas durante largos períodos.</p>
+            <p>La ergonomía se refiere al diseño de lugares de trabajo, productos y sistemas para que se adapten de manera óptima a las capacidades y necesidades humanas. Su objetivo es mejorar la eficiencia, la comodidad y la seguridad en el entorno laboral. </p>
+        </section>
+
+    <h3> ¿ POR QUE ?</h3>
+
+<div class="opciones">
+    <ul>
+        <li>Rompen la rutina de trabajo</li>
+        <li>Reactiva la energía mejorando el estado de alerta</li>
+        <li>Relaja los grupos musculos  </li>
+        <li>Genera conciencia de la salud física y mental</li>
+        <li>Estimula y favorece la circulación</li>
+        <li>Mejora la postura</li>
+        <li>Favorece la capacidad de concentración</li>
+        <li>Motiva mejores relaciones interpersonales</li>
+        <li>Promueve el surgimiento de nuevos líderes</li>
+        <li>Mejora el desempeño laboral</li>
+    </ul>
+</div>
+
+    <h2>estiramientos</h2>
+    <section class="estiramientos">
+
+        <div *ngFor="let g of estiramientos" class="est">
+            <h1>{{g.parte}}</h1>
+            <p>{{g.ejercicio}}</p>
+            <div class="img">
+                <img src="{{g.img}}" alt="">
+            </div>
+        </div>
+    </section>

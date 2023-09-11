@@ -1,0 +1,125 @@
+
+header {
+    width: 100%;
+    height: 80vh;
+    background: url('https://media.istockphoto.com/id/982355146/es/foto/kettlebell-entrenamiento-en-gimnasio.jpg?s=612x612&w=0&k=20&c=QxFWjVWatQyzOKLJ0sVGhkGJsrrp6iot5F9o2KrpDM0=');
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    /* opacity: 0.5; */
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1{
+    color: beige;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    }
+
+.titles{
+    display: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #c2996b;
+}
+.titles h2{
+    margin-right: 35px;
+    font-size: 30px;
+    color: white;
+}
+
+.def{
+    display: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #dfbc94;
+
+}
+.def p{
+    text-align: justify;
+    width: 450px;
+    font-size: 25px;
+    color: #614c35;
+    
+    
+}
+
+h3{
+    text-align: center;
+    padding: 60px 0px;
+    font-size: 30px;
+}
+
+.opciones{
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.opciones ul{
+    /* background-color:; */
+    border: #c2996b solid 5px;
+width: 90%;
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+ .opciones ul li{
+    margin-left: 30px;
+    margin-top: 20px;
+    border-bottom: #c2996b solid 1px;
+    list-style: none;
+    font-size: 25px;
+ }
+ h2{
+    text-align: center;
+    margin-top: 30px;
+ }
+.estiramientos {
+    margin-top: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:20px ;
+}
+.est{
+width: 90%;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 10px;
+grid-auto-rows: minmax(30px, auto);
+align-items: center;
+    border: 2px solid grey;
+    box-shadow: #614c35;
+    }
+
+.est h1{
+    grid-column: 2 / 3;
+  grid-row: 1;
+  text-align: center;
+}
+.est p{
+    grid-column: 1;
+    grid-row: 2;
+}
+    .est .img{
+    grid-column: 3;
+    grid-row: 2;
+
+}
+.est .img img{
+    width: 250px;
+}
